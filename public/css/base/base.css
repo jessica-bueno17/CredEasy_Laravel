@@ -1,0 +1,31 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+@import url(_footer.css);
+
+
+body{
+    background:var(--cor-back-azul-escuro);
+    font-family: var(--fonte-familia-corpo);
+} 
+
+main{
+    background: var(--cor-back-azul-claro);
+    /*background-image: linear-gradient(to bottom right,var(--cor-back-azul-escuro) 10%, 
+    var(--cor-back-azul-claro) 10% 90%,var(--cor-back-azul-escuro) 90%);*/
+    padding: 0.5rem;
+    height: auto;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background: #0A1929;
+    border-radius: 30px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: #1E90FF;
+    border-radius: 30px;
+  }

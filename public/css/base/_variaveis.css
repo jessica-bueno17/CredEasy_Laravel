@@ -1,0 +1,19 @@
+:root {
+    --fonte-familia-corpo: 'Montserrat', sans-serif;
+    
+    --cor-back-azul-escuro: #0A1929;
+    --cor-back-azul-claro:rgb(0, 30, 60);
+    --cor-verde: #32cd32;
+    --cor-amarelo: #ffd700;
+    --cor-azul-escuro: #1e90ff;
+    --cor-azul-claro: #00bfff;
+    --cor-branco: #fefefe;
+}
+
+/* ::after{
+    color:#D8D2CB;
+    color:#EEEEEE;
+    color:#DDDDDD;
+} */
+
+

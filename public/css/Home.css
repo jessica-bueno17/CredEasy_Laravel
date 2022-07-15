@@ -1,0 +1,121 @@
+.navbar-texto {
+    color: var(--cor-azul-claro)!important;
+    font-family: var(--fonte-familia-corpo)!important;
+    font-size: calc(60% + 2vmin); 
+}
+
+.nav-link-hover:hover {
+    color: var(--cor-verde);
+}
+
+/* d-none d-md-block */
+
+.texto-corpo {
+    color: var(--cor-branco);
+    font-family: 'Special Elite', monospace;
+}
+
+.texto-corpo h1 {
+    font-weight: bolder;
+    /* font-size:2rem; */
+    font-size: calc(60% + 2.5vmin);
+    /* padding-bottom: 0.5rem;
+    line-height:1.5; */
+    border-right: 2px solid rgba(255,255,255,0.75);
+    white-space:nowrap;
+    overflow: hidden;
+    margin-right: 1rem;
+    /* box-sizing: border-box; */
+}
+
+.texto-corpo p {
+    /* font-size: 1.5rem; */
+    font-size: calc(60% + 2vmin);
+    text-align:justify;
+    line-height:1.5;
+}
+
+.typing-animation {
+    animation: piscaCursor 500ms steps(40)
+    infinite normal, digitando 6s steps(40)  1s normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes digitando{
+    from{
+        width: 0;
+    }
+    to{
+        width:23rem; 
+    }
+}
+
+@keyframes piscaCursor {
+    from {
+        border-right-color: rgba(255,255,255,0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.imagem-corpo {
+    object-fit: cover;
+}
+
+.hr{
+	height:2px;
+    width: 50%;
+	/* background: linear-gradient(to right,var(--cor-branco),var(--cor-azul-escuro)); */
+    background: var(--cor-azul-escuro);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:  20px;
+    align-items: center;
+}
+
+/* ******************** */
+.card-largura {
+    max-width: 16rem;
+}
+
+.cor-card {
+    background-color: transparent;
+    color:  var(--cor-branco);
+
+}
+
+.botao-cor-especial {
+    background-color: var(--cor-azul-escuro);
+    color: var(--cor-branco);
+}
+
+
+
+/* ******** Mais Pedidos********* */
+
+h2 {
+    color: var(--cor-azul-claro)!important;
+    font-size: calc(60% + 2vmin);
+}
+
+.link-mais-pedidos {
+    text-decoration: none;
+    color: var(--cor-branco);
+}
+
+.link-mais-pedidos:hover {
+
+    color: var(--cor-verde);
+}
+
+.cor-card-mais-pedidos {
+    background-color: transparent;
+    color: var(--cor-branco);
+    border-color: var(--cor-azul-claro);
+    box-shadow: 0.6em 0.8em 0.8em 0 var(--cor-azul-escuro), -0.6em -0.8em 0.8em 0 rgba(0, 0, 0, 0.8);
+}
+
+
+
+

@@ -1,0 +1,102 @@
+footer {
+    padding: 2em 2em;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: var(--fonte-familia-corpo);
+}
+
+.item {
+    flex:1 1 300px;
+    margin: 1em;
+}
+
+.local-frase {
+    color: var(--cor-branco);
+    text-align:left;
+    font-size: calc(60% + 1vmin);
+    padding: 0.3em;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.Redes-Sociais {
+    text-align: center;
+    align-items: center;
+    color: var(--cor-branco);
+}
+
+.Links-Redes-Sociais {
+    padding-top: 1rem;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.Links-Redes-Sociais a {
+    flex: 1 1 100px;
+}
+
+.Links-Redes-Sociais a:hover {
+    transform: scale(1.1);
+}
+
+
+.rodape-logo {
+    text-align: center;
+    align-items:center;
+}
+
+#LogoRodape {
+    width:80px;
+    height:80px; 
+}
+
+.copyright {
+    color: var(--cor-branco);
+    font-size: calc(60% + 0.5vmin);
+    margin: 1em 0;
+} 
+
+/* @media only screen and (min-width: 450px)
+and (max-width: 769px){
+   footer {
+       clear: both;
+       width: 100%;
+    }
+    .logotipo {
+        width: 50%;
+        float: left;
+        text-align: left;
+    }
+    .redes {
+        width: 50%;
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+   footer {
+       width: 100%;
+       clear: both;
+       margin-bottom: 3%;
+   }
+   .logotipo {
+       font-size: 1em;
+       width: 45%;
+       float: left;
+       text-align: center;
+    }
+    .logotipo img, .redes img {
+        width: 10%;
+    }
+    .redes {
+        width: 45%;
+        float: right;
+        margin-right: 1%;
+        text-align: center;
+    }
+} */
+
